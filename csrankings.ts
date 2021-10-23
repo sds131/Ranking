@@ -200,7 +200,7 @@ class CSRankings {
     private readonly turingImage = "./png/acm-turing-award.png";
     private readonly acmfellowFile = "./acm-fellows.csv";
     private readonly acmfellowImage = "./png/acm.png";
-    private readonly homepageImage = "./house-logo.png";
+    private readonly homepageImage = "./png/house-logo.png";
 
     private readonly allowRankingChange = false;   /* Can we change the kind of rankings being used? */
 
@@ -425,6 +425,7 @@ class CSRankings {
         { area: "wine", title: "ECom" }
             //,{ area : "cse", title : "CSEd" }
         ];
+
     private readonly socialAreas =["social"];
     private readonly aiAreas = ["ai", "vision", "mlmining", "nlp", "ir"];
     private readonly systemsAreas = ["arch", "comm", "sec", "mod", "hpc", "mobile", "metrics", "ops", "plan", "soft", "da", "bed"];
@@ -438,6 +439,7 @@ class CSRankings {
     private readonly systemsFields: Array<number> = [];
     private readonly theoryFields: Array<number> = [];
     private readonly otherFields: Array<number> = [];
+
 
     /* Map area to its name (from areaNames). */
     private readonly areaDict: { [key: string]: string } = {};
@@ -505,25 +507,6 @@ class CSRankings {
 	name = he.encode(name, { 'useNamedReferences' : true, 'allowUnsafeSymbols' : true });
 	name = name.replace(/&/g, "=");
 	name = name.replace(/;/g, "=");
-	if (false) {
-	    name = name.replace(/Á/g, "=Aacute=");
-	    name = name.replace(/á/g, "=aacute=");
-	    name = name.replace(/è/g, "=egrave=");
-	    name = name.replace(/é/g, "=eacute=");
-	    name = name.replace(/í/g, "=iacute=");
-	    name = name.replace(/ï/g, "=iuml=");
-	    name = name.replace(/ó/g, "=oacute=");
-	    name = name.replace(/Ç/g, "=Ccedil=");
-	    name = name.replace(/ç/g, "=ccedil=");
-	    name = name.replace(/ä/g, "=auml=");
-	    name = name.replace(/ö/g, "=ouml=");
-	    name = name.replace(/ø/g, "=oslash=");
-	    name = name.replace(/Ö/g, "=Ouml=");
-	    name = name.replace(/Ü/g, "=Uuml=");
-	    name = name.replace(/ü/g, "=uuml=");
-	    name = name.replace(/ß/g, "=szlig=");
-	    name = name.replace(/ý/g, "=yacute=");
-	}
 	
 	let splitName = name.split(" ");
 	let lastName = splitName[splitName.length - 1];
@@ -1222,13 +1205,8 @@ class CSRankings {
                 let homePage = encodeURI(this.homepages[name]);
                 let dblpName = this.dblpAuthors[name]; // this.translateNameToDBLP(name);
 
-                p += "<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><small>"
-                    + '<a title="Click for author\'s home page." target="_blank" href="'
-                    + homePage
-                    + '" '
-                    + 'onclick="trackOutboundLink(\''
-                    + homePage
-                    + '\', true); return false;"'
+                p += `<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><small> <a title="Click for author\'s DBLP entry." target="_blank" href="'
+                    ${dblpName}" onclick="trackOutboundLink('${dblpName}', true); return false;"`
                     + '>'
                     + name
                     + '</a>&nbsp;';
@@ -1245,31 +1223,16 @@ class CSRankings {
                     p += '<span title="Turing Award"><img alt="Turing Award" src="' +
                         this.turingImage + '"></span>&nbsp;';
                 }
-                p += '<span class="areaname">' + this.areaString(name).toLowerCase() + '</span>&nbsp;';
-
-                p += '<a title="Click for author\'s home page." target="_blank" href="'
-                    + homePage
-                    + '" '
-                    + 'onclick="trackOutboundLink(\''
-                    + homePage
-                    + '\', true); return false;"'
-                    + '>'
-                    + '<img alt=\"Home page\" src=\"' + this.homepageImage + '\"></a>&nbsp;';
-
+                
                 if (this.scholarInfo.hasOwnProperty(name)) {
                     if (this.scholarInfo[name] != "NOSCHOLARPAGE") {
                         let url = `https://scholar.google.com/citations?user=${this.scholarInfo[name]}&hl=en&oi=ao`;
-                        p += `<a title="Click for author\'s Google Scholar page." target="_blank" href="${url}" onclick="trackOutboundLink('${url}', true); return false;">`
-                            + '<img alt="Google Scholar" src="scholar-favicon.ico" height="10" width="10"></a>&nbsp;';
+                        
                     }
                 }
 
-                p += `<a title="Click for author\'s DBLP entry." target="_blank" href="${dblpName}" onclick="trackOutboundLink('${dblpName}', true); return false;">`;
-                p += '<img alt="DBLP" src="dblp.png">'
-                    + '</a>';
-
                 p += `<span onclick='csr.toggleChart("${escape(name)}");' title="Click for author's publication profile." class="hovertip" id="${escape(name) + '-chartwidget'}">`;
-                p += "<span class='piechart'>" + this.PieChart + "</span></span>"
+                p += "</span>"
                     + '</small>'
                     + '</td><td align="right"><small>'
                     + '<a title="Click for author\'s DBLP entry." target="_blank" href="'
@@ -1364,7 +1327,7 @@ class CSRankings {
 
                 s += "&nbsp;" + dept + `&nbsp;<img src="/flags/${abbrv}.png">&nbsp;`
                     + "<span class=\"hovertip\" onclick=\"csr.toggleChart('" + esc + "');\" id=\"" + esc + "-chartwidget\">"
-                    + this.PieChart + "</span>";
+                    +"</span>";
                 s += "</td>";
 
                 s += '<td align="right">' + (Math.round(10.0 * v) / 10.0).toFixed(1) + "</td>";
