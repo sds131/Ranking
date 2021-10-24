@@ -147,18 +147,7 @@ class CSRankings {
         for (let area of this.socialAreas) {
             this.socialFields.push(this.areaPosition[area]);
         }
-        for (let area of this.aiAreas) {
-            this.aiFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.systemsAreas) {
-            this.systemsFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.theoryAreas) {
-            this.theoryFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.interdisciplinaryAreas) {
-            this.otherFields.push(this.areaPosition[area]);
-        }
+        
         let parentCounter = 0;
         for (let child in CSRankings.parentMap) {
             let parent = CSRankings.parentMap[child];
@@ -211,97 +200,11 @@ class CSRankings {
             'tcss':'social',
             'tsc':'social',
             'socnet':'social',
-            'aaai': 'ai',
-            'ijcai': 'ai',
-            'cvpr': 'vision',
-            'eccv': 'vision',
-            'iccv': 'vision',
-            'icml': 'mlmining',
-            'kdd': 'mlmining',
-            'nips': 'mlmining',
-            'acl': 'nlp',
-            'emnlp': 'nlp',
-            'naacl': 'nlp',
-            'sigir': 'ir',
-            'www': 'ir',
-            'asplos': 'arch',
-            'isca': 'arch',
-            'micro': 'arch',
-            'hpca': 'arch', // next tier
-            'ccs': 'sec',
-            'oakland': 'sec',
-            'usenixsec': 'sec',
-            'ndss': 'sec', // next tier (for now)
-            'pets': 'sec', // next tier
-            'vldb': 'mod',
-            'sigmod': 'mod',
-            'icde': 'mod', // next tier
-            'pods': 'mod',
-            'dac': 'da',
-            'iccad': 'da',
-            'emsoft': 'bed',
-            'rtas': 'bed',
-            'rtss': 'bed',
-            'sc': 'hpc',
-            'hpdc': 'hpc',
-            'ics': 'hpc',
-            'mobicom': 'mobile',
-            'mobisys': 'mobile',
-            'sensys': 'mobile',
-            'imc': 'metrics',
-            'sigmetrics': 'metrics',
-            'osdi': 'ops',
-            'sosp': 'ops',
-            'eurosys': 'ops',    // next tier (see below)
-            'fast': 'ops',       // next tier
-            'usenixatc': 'ops',  // next tier
-            'popl': 'plan',
-            'pldi': 'plan',
-            'oopsla': 'plan', // next tier 
-            'icfp': 'plan',   // next tier
-            'fse': 'soft',
-            'icse': 'soft',
-            'ase': 'soft',    // next tier
-            'issta': 'soft',  // next tier
-            'nsdi': 'comm',
-            'sigcomm': 'comm',
-            'siggraph': 'graph',
-            'siggraph-asia': 'graph',
-            'focs': 'act',
-            'soda': 'act',
-            'stoc': 'act',
-            'crypto': 'crypt',
-            'eurocrypt': 'crypt',
-            'cav': 'log',
-            'lics': 'log',
-            'ismb': 'bio',
-            'recomb': 'bio',
-            'ec': 'ecom',
-            'wine': 'ecom',
-            'chiconf': 'chi',
-            'ubicomp': 'chi',
-            'uist': 'chi',
-            'icra': 'robotics',
-            'iros': 'robotics',
-            'rss': 'robotics',
-            'vis': 'visualization',
-            'vr': 'visualization'
         };
-
-    public static readonly nextTier: { [key: string]: boolean } =
+    
+        public static readonly nextTier: { [key: string]: boolean } =
         {
-            'ase': true,
-            'issta': true,
-            'icde': true,
-            'pods': true,
-            'hpca': true,
-            'ndss': true, // for now
-            'pets': true,
-            'eurosys': true,
-            'fast': true,
-            'usenixatc': true,
-            'icfp': true,
-            'oopsla': true
+            
         };
 
     public static readonly childMap: { [key: string]: [string] } = {};
@@ -322,123 +225,14 @@ class CSRankings {
         {area:"tcss",title:"Social"},
         {area:"tsc",title:"Social"},
         {area:"socnet",title:"Social"},
-        { area: "ai", title: "AI" },
-        { area: "aaai", title: "AI" },
-        { area: "ijcai", title: "AI" },
-        { area: "vision", title: "Vision" },
-        { area: "cvpr", title: "Vision" },
-        { area: "eccv", title: "Vision" },
-        { area: "iccv", title: "Vision" },
-        { area: "mlmining", title: "ML" },
-        { area: "icml", title: "ML" },
-        { area: "kdd", title: "ML" },
-        { area: "nips", title: "ML" },
-        { area: "nlp", title: "NLP" },
-        { area: "acl", title: "NLP" },
-        { area: "emnlp", title: "NLP" },
-        { area: "naacl", title: "NLP" },
-        { area: "ir", title: "Web+IR" },
-        { area: "sigir", title: "Web+IR" },
-        { area: "www", title: "Web+IR" },
-        { area: "arch", title: "Arch" },
-        { area: "asplos", title: "Arch" },
-        { area: "isca", title: "Arch" },
-        { area: "micro", title: "Arch" },
-        { area: "hpca", title: "Arch" },
-        { area: "comm", title: "Networks" },
-        { area: "sigcomm", title: "Networks" },
-        { area: "nsdi", title: "Networks" },
-        { area: "sec", title: "Security" },
-        { area: "ccs", title: "Security" },
-        { area: "oakland", title: "Security" },
-        { area: "usenixsec", title: "Security" },
-        { area: "ndss", title: "Security" },
-        { area: "pets", title: "Security" },
-        { area: "mod", title: "DB" },
-        { area: "sigmod", title: "DB" },
-        { area: "vldb", title: "DB" },
-        { area: "icde", title: "DB" }, // next tier
-        { area: "pods", title: "DB" }, // next tier
-        { area: "hpc", title: "HPC" },
-        { area: "sc", title: "HPC" },
-        { area: "hpdc", title: "HPC" },
-        { area: "ics", title: "HPC" },
-        { area: "mobile", title: "Mobile" },
-        { area: "mobicom", title: "Mobile" },
-        { area: "mobisys", title: "Mobile" },
-        { area: "sensys", title: "Mobile" },
-        { area: "metrics", title: "Metrics" },
-        { area: "imc", title: "Metrics" },
-        { area: "sigmetrics", title: "Metrics" },
-        { area: "ops", title: "OS" },
-        { area: "sosp", title: "OS" },
-        { area: "osdi", title: "OS" },
-        { area: "fast", title: "OS" },   // next tier
-        { area: "usenixatc", title: "OS" },   // next tier
-        { area: "eurosys", title: "OS" },
-        { area: "pldi", title: "PL" },
-        { area: "popl", title: "PL" },
-        { area: "icfp", title: "PL" },   // next tier
-        { area: "oopsla", title: "PL" }, // next tier
-        { area: "plan", title: "PL" },
-        { area: "soft", title: "SE" },
-        { area: "fse", title: "SE" },
-        { area: "icse", title: "SE" },
-        { area: "ase", title: "SE" },    // next tier
-        { area: "issta", title: "SE" },  // next tier
-        { area: "act", title: "Theory" },
-        { area: "focs", title: "Theory" },
-        { area: "soda", title: "Theory" },
-        { area: "stoc", title: "Theory" },
-        { area: "crypt", title: "Crypto" },
-        { area: "crypto", title: "Crypto" },
-        { area: "eurocrypt", title: "Crypto" },
-        { area: "log", title: "Logic" },
-        { area: "cav", title: "Logic" },
-        { area: "lics", title: "Logic" },
-        { area: "graph", title: "Graphics" },
-        { area: "siggraph", title: "Graphics" },
-        { area: "siggraph-asia", title: "Graphics" },
-        { area: "chi", title: "HCI" },
-        { area: "chiconf", title: "HCI" },
-        { area: "ubicomp", title: "HCI" },
-        { area: "uist", title: "HCI" },
-        { area: "robotics", title: "Robotics" },
-        { area: "icra", title: "Robotics" },
-        { area: "iros", title: "Robotics" },
-        { area: "rss", title: "Robotics" },
-        { area: "bio", title: "Comp. Bio" },
-        { area: "ismb", title: "Comp. Bio" },
-        { area: "recomb", title: "Comp. Bio" },
-        { area: "da", title: "EDA" },
-        { area: "dac", title: "EDA" },
-        { area: "iccad", title: "EDA" },
-        { area: "bed", title: "Embedded" },
-        { area: "emsoft", title: "Embedded" },
-        { area: "rtas", title: "Embedded" },
-        { area: "rtss", title: "Embedded" },
-        { area: "visualization", title: "Visualization" },
-        { area: "vis", title: "Visualization" },
-        { area: "vr", title: "Visualization" },
-        { area: "ecom", title: "ECom" },
-        { area: "ec", title: "ECom" },
-        { area: "wine", title: "ECom" }
-            //,{ area : "cse", title : "CSEd" }
         ];
 
     private readonly socialAreas =["social"];
-    private readonly aiAreas = ["ai", "vision", "mlmining", "nlp", "ir"];
-    private readonly systemsAreas = ["arch", "comm", "sec", "mod", "hpc", "mobile", "metrics", "ops", "plan", "soft", "da", "bed"];
-    private readonly theoryAreas = ["act", "crypt", "log"];
-    private readonly interdisciplinaryAreas = ["graph", "chi", "robotics", "bio", "visualization", "ecom"];
-
+    
     private readonly areaNames: Array<string> = [];
     private readonly fields: Array<string> = [];
     private readonly socialFields: Array<number> = [];
-    private readonly aiFields: Array<number> = [];
-    private readonly systemsFields: Array<number> = [];
-    private readonly theoryFields: Array<number> = [];
-    private readonly otherFields: Array<number> = [];
+    
 
 
     /* Map area to its name (from areaNames). */
@@ -1510,45 +1304,15 @@ class CSRankings {
         return this.activateAll(false);
     }
 
-    public activateSystems(value: boolean = true): boolean {
-        return this.activateFields(value, this.systemsFields);
-    }
-
     public activateSocial(value: boolean = true): boolean {
         return this.activateFields(value, this.socialFields);
     }
 
-    public activateAI(value: boolean = true): boolean {
-        return this.activateFields(value, this.aiFields);
-    }
-
-    public activateTheory(value: boolean = true): boolean {
-        return this.activateFields(value, this.theoryFields);
-    }
-
-    public activateOthers(value: boolean = true): boolean {
-        return this.activateFields(value, this.otherFields);
-    }
-
-    public deactivateSystems(): boolean {
-        return this.activateSystems(false);
-    }
 
     public deactivateSocial(): boolean {
         return this.activateSocial(false);
     }
 
-    public deactivateAI(): boolean {
-        return this.activateAI(false);
-    }
-
-    public deactivateTheory(): boolean {
-        return this.activateTheory(false);
-    }
-
-    public deactivateOthers(): boolean {
-        return this.activateOthers(false);
-    }
 
     // Update the URL according to the selected checkboxes.
     private updatedURL(): string {
@@ -1879,14 +1643,7 @@ class CSRankings {
             'all_areas_off': (() => { this.activateNone(); }),
             'social_areas_on': (() => { this.activateSocial(); }),
             'social_areas_off': (() => { this.deactivateSocial(); }),
-            'ai_areas_on': (() => { this.activateAI(); }),
-            'ai_areas_off': (() => { this.deactivateAI(); }),
-            'systems_areas_on': (() => { this.activateSystems(); }),
-            'systems_areas_off': (() => { this.deactivateSystems(); }),
-            'theory_areas_on': (() => { this.activateTheory(); }),
-            'theory_areas_off': (() => { this.deactivateTheory(); }),
-            'other_areas_on': (() => { this.activateOthers(); }),
-            'other_areas_off': (() => { this.deactivateOthers(); })
+            
         };
         for (let item in listeners) {
             const widget = document.getElementById(item);

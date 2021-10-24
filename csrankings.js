@@ -49,121 +49,11 @@ class CSRankings {
             { area: "tcss", title: "Social" },
             { area: "tsc", title: "Social" },
             { area: "socnet", title: "Social" },
-            { area: "ai", title: "AI" },
-            { area: "aaai", title: "AI" },
-            { area: "ijcai", title: "AI" },
-            { area: "vision", title: "Vision" },
-            { area: "cvpr", title: "Vision" },
-            { area: "eccv", title: "Vision" },
-            { area: "iccv", title: "Vision" },
-            { area: "mlmining", title: "ML" },
-            { area: "icml", title: "ML" },
-            { area: "kdd", title: "ML" },
-            { area: "nips", title: "ML" },
-            { area: "nlp", title: "NLP" },
-            { area: "acl", title: "NLP" },
-            { area: "emnlp", title: "NLP" },
-            { area: "naacl", title: "NLP" },
-            { area: "ir", title: "Web+IR" },
-            { area: "sigir", title: "Web+IR" },
-            { area: "www", title: "Web+IR" },
-            { area: "arch", title: "Arch" },
-            { area: "asplos", title: "Arch" },
-            { area: "isca", title: "Arch" },
-            { area: "micro", title: "Arch" },
-            { area: "hpca", title: "Arch" },
-            { area: "comm", title: "Networks" },
-            { area: "sigcomm", title: "Networks" },
-            { area: "nsdi", title: "Networks" },
-            { area: "sec", title: "Security" },
-            { area: "ccs", title: "Security" },
-            { area: "oakland", title: "Security" },
-            { area: "usenixsec", title: "Security" },
-            { area: "ndss", title: "Security" },
-            { area: "pets", title: "Security" },
-            { area: "mod", title: "DB" },
-            { area: "sigmod", title: "DB" },
-            { area: "vldb", title: "DB" },
-            { area: "icde", title: "DB" },
-            { area: "pods", title: "DB" },
-            { area: "hpc", title: "HPC" },
-            { area: "sc", title: "HPC" },
-            { area: "hpdc", title: "HPC" },
-            { area: "ics", title: "HPC" },
-            { area: "mobile", title: "Mobile" },
-            { area: "mobicom", title: "Mobile" },
-            { area: "mobisys", title: "Mobile" },
-            { area: "sensys", title: "Mobile" },
-            { area: "metrics", title: "Metrics" },
-            { area: "imc", title: "Metrics" },
-            { area: "sigmetrics", title: "Metrics" },
-            { area: "ops", title: "OS" },
-            { area: "sosp", title: "OS" },
-            { area: "osdi", title: "OS" },
-            { area: "fast", title: "OS" },
-            { area: "usenixatc", title: "OS" },
-            { area: "eurosys", title: "OS" },
-            { area: "pldi", title: "PL" },
-            { area: "popl", title: "PL" },
-            { area: "icfp", title: "PL" },
-            { area: "oopsla", title: "PL" },
-            { area: "plan", title: "PL" },
-            { area: "soft", title: "SE" },
-            { area: "fse", title: "SE" },
-            { area: "icse", title: "SE" },
-            { area: "ase", title: "SE" },
-            { area: "issta", title: "SE" },
-            { area: "act", title: "Theory" },
-            { area: "focs", title: "Theory" },
-            { area: "soda", title: "Theory" },
-            { area: "stoc", title: "Theory" },
-            { area: "crypt", title: "Crypto" },
-            { area: "crypto", title: "Crypto" },
-            { area: "eurocrypt", title: "Crypto" },
-            { area: "log", title: "Logic" },
-            { area: "cav", title: "Logic" },
-            { area: "lics", title: "Logic" },
-            { area: "graph", title: "Graphics" },
-            { area: "siggraph", title: "Graphics" },
-            { area: "siggraph-asia", title: "Graphics" },
-            { area: "chi", title: "HCI" },
-            { area: "chiconf", title: "HCI" },
-            { area: "ubicomp", title: "HCI" },
-            { area: "uist", title: "HCI" },
-            { area: "robotics", title: "Robotics" },
-            { area: "icra", title: "Robotics" },
-            { area: "iros", title: "Robotics" },
-            { area: "rss", title: "Robotics" },
-            { area: "bio", title: "Comp. Bio" },
-            { area: "ismb", title: "Comp. Bio" },
-            { area: "recomb", title: "Comp. Bio" },
-            { area: "da", title: "EDA" },
-            { area: "dac", title: "EDA" },
-            { area: "iccad", title: "EDA" },
-            { area: "bed", title: "Embedded" },
-            { area: "emsoft", title: "Embedded" },
-            { area: "rtas", title: "Embedded" },
-            { area: "rtss", title: "Embedded" },
-            { area: "visualization", title: "Visualization" },
-            { area: "vis", title: "Visualization" },
-            { area: "vr", title: "Visualization" },
-            { area: "ecom", title: "ECom" },
-            { area: "ec", title: "ECom" },
-            { area: "wine", title: "ECom" }
-            //,{ area : "cse", title : "CSEd" }
         ];
         this.socialAreas = ["social"];
-        this.aiAreas = ["ai", "vision", "mlmining", "nlp", "ir"];
-        this.systemsAreas = ["arch", "comm", "sec", "mod", "hpc", "mobile", "metrics", "ops", "plan", "soft", "da", "bed"];
-        this.theoryAreas = ["act", "crypt", "log"];
-        this.interdisciplinaryAreas = ["graph", "chi", "robotics", "bio", "visualization", "ecom"];
         this.areaNames = [];
         this.fields = [];
         this.socialFields = [];
-        this.aiFields = [];
-        this.systemsFields = [];
-        this.theoryFields = [];
-        this.otherFields = [];
         /* Map area to its name (from areaNames). */
         this.areaDict = {};
         /* Map area to its position in the list. */
@@ -221,18 +111,6 @@ class CSRankings {
         }
         for (let area of this.socialAreas) {
             this.socialFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.aiAreas) {
-            this.aiFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.systemsAreas) {
-            this.systemsFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.theoryAreas) {
-            this.theoryFields.push(this.areaPosition[area]);
-        }
-        for (let area of this.interdisciplinaryAreas) {
-            this.otherFields.push(this.areaPosition[area]);
         }
         let parentCounter = 0;
         for (let child in CSRankings.parentMap) {
@@ -1228,35 +1106,11 @@ class CSRankings {
     activateNone() {
         return this.activateAll(false);
     }
-    activateSystems(value = true) {
-        return this.activateFields(value, this.systemsFields);
-    }
     activateSocial(value = true) {
         return this.activateFields(value, this.socialFields);
     }
-    activateAI(value = true) {
-        return this.activateFields(value, this.aiFields);
-    }
-    activateTheory(value = true) {
-        return this.activateFields(value, this.theoryFields);
-    }
-    activateOthers(value = true) {
-        return this.activateFields(value, this.otherFields);
-    }
-    deactivateSystems() {
-        return this.activateSystems(false);
-    }
     deactivateSocial() {
         return this.activateSocial(false);
-    }
-    deactivateAI() {
-        return this.activateAI(false);
-    }
-    deactivateTheory() {
-        return this.activateTheory(false);
-    }
-    deactivateOthers() {
-        return this.activateOthers(false);
     }
     // Update the URL according to the selected checkboxes.
     updatedURL() {
@@ -1587,14 +1441,6 @@ class CSRankings {
             'all_areas_off': (() => { this.activateNone(); }),
             'social_areas_on': (() => { this.activateSocial(); }),
             'social_areas_off': (() => { this.deactivateSocial(); }),
-            'ai_areas_on': (() => { this.activateAI(); }),
-            'ai_areas_off': (() => { this.deactivateAI(); }),
-            'systems_areas_on': (() => { this.activateSystems(); }),
-            'systems_areas_off': (() => { this.deactivateSystems(); }),
-            'theory_areas_on': (() => { this.activateTheory(); }),
-            'theory_areas_off': (() => { this.deactivateTheory(); }),
-            'other_areas_on': (() => { this.activateOthers(); }),
-            'other_areas_off': (() => { this.deactivateOthers(); })
         };
         for (let item in listeners) {
             const widget = document.getElementById(item);
@@ -1615,96 +1461,8 @@ CSRankings.parentMap = {
     'tcss': 'social',
     'tsc': 'social',
     'socnet': 'social',
-    'aaai': 'ai',
-    'ijcai': 'ai',
-    'cvpr': 'vision',
-    'eccv': 'vision',
-    'iccv': 'vision',
-    'icml': 'mlmining',
-    'kdd': 'mlmining',
-    'nips': 'mlmining',
-    'acl': 'nlp',
-    'emnlp': 'nlp',
-    'naacl': 'nlp',
-    'sigir': 'ir',
-    'www': 'ir',
-    'asplos': 'arch',
-    'isca': 'arch',
-    'micro': 'arch',
-    'hpca': 'arch',
-    'ccs': 'sec',
-    'oakland': 'sec',
-    'usenixsec': 'sec',
-    'ndss': 'sec',
-    'pets': 'sec',
-    'vldb': 'mod',
-    'sigmod': 'mod',
-    'icde': 'mod',
-    'pods': 'mod',
-    'dac': 'da',
-    'iccad': 'da',
-    'emsoft': 'bed',
-    'rtas': 'bed',
-    'rtss': 'bed',
-    'sc': 'hpc',
-    'hpdc': 'hpc',
-    'ics': 'hpc',
-    'mobicom': 'mobile',
-    'mobisys': 'mobile',
-    'sensys': 'mobile',
-    'imc': 'metrics',
-    'sigmetrics': 'metrics',
-    'osdi': 'ops',
-    'sosp': 'ops',
-    'eurosys': 'ops',
-    'fast': 'ops',
-    'usenixatc': 'ops',
-    'popl': 'plan',
-    'pldi': 'plan',
-    'oopsla': 'plan',
-    'icfp': 'plan',
-    'fse': 'soft',
-    'icse': 'soft',
-    'ase': 'soft',
-    'issta': 'soft',
-    'nsdi': 'comm',
-    'sigcomm': 'comm',
-    'siggraph': 'graph',
-    'siggraph-asia': 'graph',
-    'focs': 'act',
-    'soda': 'act',
-    'stoc': 'act',
-    'crypto': 'crypt',
-    'eurocrypt': 'crypt',
-    'cav': 'log',
-    'lics': 'log',
-    'ismb': 'bio',
-    'recomb': 'bio',
-    'ec': 'ecom',
-    'wine': 'ecom',
-    'chiconf': 'chi',
-    'ubicomp': 'chi',
-    'uist': 'chi',
-    'icra': 'robotics',
-    'iros': 'robotics',
-    'rss': 'robotics',
-    'vis': 'visualization',
-    'vr': 'visualization'
 };
-CSRankings.nextTier = {
-    'ase': true,
-    'issta': true,
-    'icde': true,
-    'pods': true,
-    'hpca': true,
-    'ndss': true,
-    'pets': true,
-    'eurosys': true,
-    'fast': true,
-    'usenixatc': true,
-    'icfp': true,
-    'oopsla': true
-};
+CSRankings.nextTier = {};
 CSRankings.childMap = {};
 CSRankings.noteMap = {
     'Tech': 'https://tech.cornell.edu/',
