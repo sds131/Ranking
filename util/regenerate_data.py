@@ -8,7 +8,7 @@ import re
 import sys
 import operator
 from typing import cast, Any, Dict, List, Tuple, TypedDict, Union
-from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal,TOG_SIGGRAPH_Volume, TOG_SIGGRAPH_Asia_Volume, TVCG_Vis_Volume, TVCG_VR_Volume
+from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal
 from collections import defaultdict
 
 parser = argparse.ArgumentParser(
@@ -212,28 +212,7 @@ def handle_article(_ : Any, article : ArticleType) -> bool: # type: ignore
                 areaname = confdict[confname]
             else:
                 return True
-        elif confname == Conference('ACM Trans. Graph.'):
-            if year in TOG_SIGGRAPH_Volume:
-                (vol, num) = TOG_SIGGRAPH_Volume[year]
-                if (volume == str(vol)) and (number == str(num)):
-                    confname = Conference('SIGGRAPH')
-                    areaname = confdict[confname]
-            if year in TOG_SIGGRAPH_Asia_Volume:
-                (vol, num) = TOG_SIGGRAPH_Asia_Volume[year]
-                if (volume == str(vol)) and (number == str(num)):
-                    confname = Conference('SIGGRAPH Asia')
-                    areaname = confdict[confname]
-        elif confname == 'IEEE Trans. Vis. Comput. Graph.':
-            if year in TVCG_Vis_Volume:
-                (vol, num) = TVCG_Vis_Volume[year]
-                if (volume == str(vol)) and (number == str(num)):
-                    areaname = Area('vis')
-            if year in TVCG_VR_Volume:
-                (vol, num) = TVCG_VR_Volume[year]
-                if (volume == str(vol)) and (number == str(num)):
-                    confname = Conference('VR')
-                    areaname = Area('vr')
-
+        
         if 'title' in article:
             title = Title("")
             if type(article['title']) is collections.OrderedDict:
