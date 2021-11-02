@@ -971,7 +971,7 @@ class CSRankings {
             }
 
             let p = '<div class="table"><table class="table table-sm table-striped"><thead><th></th><td><small><em>'
-                + '<abbr title="Click on an author\'s name to go to their home page.">Faculty</abbr></em></small></td>'
+                + '<abbr title="Click on an author\'s name to go to their DBLP entry.">Faculty</abbr></em></small></td>'
                 + '<td align="right"><small><em>&nbsp;&nbsp;<abbr title="Total number of publications (click for DBLP entry).">\#&nbsp;Pubs</abbr>'
                 + ' </em></small></td><td align="right"><small><em><abbr title="Count divided by number of co-authors">Adj.&nbsp;\#</abbr></em>'
                 + '</small></td></thead><tbody>';
@@ -1025,10 +1025,7 @@ class CSRankings {
                     }
                 }
 
-                p += `<span onclick='csr.toggleChart("${escape(name)}");' title="Click for author's publication profile." class="hovertip" id="${escape(name) + '-chartwidget'}">`;
-                p += "</span>"
-                    + '</small>'
-                    + '</td><td align="right"><small>'
+                p += '<td align="right"><small>'
                     + '<a title="Click for author\'s DBLP entry." target="_blank" href="'
                     + dblpName
                     + '" '
@@ -1042,10 +1039,6 @@ class CSRankings {
                     + '<td align="right"><small>'
                     + (Math.round(10.0 * facultyAdjustedCount[name]) / 10.0).toFixed(1)
                     + "</small></td></tr>"
-                    + "<tr><td colspan=\"4\">"
-                    + '<div class="csr-piechart" id="' + escape(name) + "-chart" + '">'
-                    + '</div>'
-                    + "</td></tr>"
                     ;
             }
             p += "</tbody></table></div>";
@@ -1068,7 +1061,7 @@ class CSRankings {
             + '</th><th align="right">'
             + '<abbr title="Geometric mean count of papers published across all areas."><font color="#777">Count</font>'
             + '</abbr></th><th align="right">&nbsp;<abbr title="Number of faculty who have published in these areas."><font color="#777">Faculty</font>'
-            + '</abbr></th></th></tr></thead>';
+            + '</abbr></th></tr></thead>';
 
         s = s + "<tbody>";
         /* As long as there is at least one thing selected, compute and display a ranking. */
@@ -1120,17 +1113,13 @@ class CSRankings {
                 }
 
                 s += "&nbsp;" + dept + `&nbsp;<img src="/flags/${abbrv}.png">&nbsp;`
-                    + "<span class=\"hovertip\" onclick=\"csr.toggleChart('" + esc + "');\" id=\"" + esc + "-chartwidget\">"
-                    +"</span>";
-                s += "</td>";
+                    + "</td>";
 
                 s += '<td align="right">' + (Math.round(10.0 * v) / 10.0).toFixed(1) + "</td>";
                 s += '<td align="right">' + deptCounts[dept]; /* number of faculty */
                 s += "</td>";
                 s += "</tr>\n";
                 // style="width: 100%; height: 350px;" 
-                s += '<tr><td colspan="4"><div class="csr-piechart" id="'
-                    + esc + '-chart">' + '</div></td></tr>';
                 s += '<tr><td colspan="4"><div style="display:none;" id="' + esc + '-faculty">' + univtext[dept] + '</div></td></tr>';
                 ties++;
                 oldv = v;
