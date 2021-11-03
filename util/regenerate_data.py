@@ -204,7 +204,7 @@ def handle_article(_ : Any, article : ArticleType) -> bool: # type: ignore
             if year in Soc_journal:
                 vols = str(Soc_journal[year])
                 if volume in vols:
-                    confname = Conference('SocNet')
+                    confname = Conference('SocNets')
                     areaname = Area('socnet')
         elif areaname == Area('pacmpl'):
             confname = Conference(article['number'])

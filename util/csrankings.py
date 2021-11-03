@@ -76,7 +76,7 @@ def pagecount(pageStr: str) -> int:
 areadict : Dict[Area, List[Conference]] = {
     Area("tcss"):[Conference("TCSS"),Conference("IEEE Transactions on Computational Social Systems"),Conference("IEEE TCSS"),Conference("IEEE Trans. Comput. Soc. Syst.")],
     Area("tsc"):[Conference("TSC"),Conference("tsoco"),Conference("ACM Transactions on Social Computing"),Conference("ACM Trans. Soc. Comput.")],
-    Area("socnet"):[Conference("Social Networks"),Conference("SocNet"),Conference("Soc. Networks")],
+    Area("socnet"):[Conference("Social Networks"),Conference("SocNets"),Conference("Soc. Networks")],
 }
 
 TCSS_journal = {
