@@ -4,8 +4,15 @@ import gzip
 
 authorPaperCountThreshold = 0
 
-startyear = 2013
-endyear   = 2018
+startyear = 1990
+endyear   = 2021
+
+def csv2dict_str_str(fname):
+    """Takes a CSV file and returns a dictionary of pairs."""
+    with open(fname, mode='r') as infile:
+        rdr = csv.reader(infile)
+        d = {str(rows[0].strip()): str(rows[1].strip()) for rows in rdr}
+    return d
 
 def parseDBLP(facultydict):
     coauthors = {}
@@ -15,7 +22,7 @@ def parseDBLP(facultydict):
 
         oldnode = None
         
-        for (event, node) in ElementTree.iterparse(f, events=['start', 'end']):
+        for (event, node) in ElementTree.iterparse(f, events=['start', 'end'],load_dtd=True):
 
             if (oldnode is not None):
                 oldnode.clear()
@@ -73,11 +80,6 @@ def parseDBLP(facultydict):
                 tooFewPages = False
                 if ((pageCount != -1) and (pageCount < pageCountThreshold)):
                     tooFewPages = True
-                    exceptionConference = confname == 'SC'
-                    exceptionConference |= confname == 'SIGSOFT FSE' and year == 2012
-                    exceptionConference |= confname == 'ACM Trans. Graph.' and int(volume) >= 26 and int(volume) <= 36
-                    if exceptionConference:
-                        tooFewPages = False
 
                 if (tooFewPages):
                     continue
@@ -118,23 +120,48 @@ def parseDBLP(facultydict):
                                         coauthors[authorName][(year,areaname)].add(coauth)
                                         coauthors[coauth][(year,areaname)].add(authorName)
 
+    author={}
+    f1=open('csrankings.csv','r')
+    csv_reader=csv.reader(f1)
+    for row in csv_reader:
+        k=str(row[0])
+        v=str(row[1])
+        author[k]=v
+
+    affiliation={}
+    f2=open('country-info 2.csv','r')
+    csv_reader=csv.reader(f2)
+    for row in csv_reader:
+        k=str(row[0])
+        v=str(row[2])
+        affiliation[k]=v
+
     o = open('faculty-coauthors.csv', 'w')
-    o.write('"author","coauthor","year","area"\n')
+    o.write('"author","author_affiliation","author_country","coauthor","coauthor_affiliation","coauthor_country","year","area"\n')
     for auth in coauthors:
         if (auth in facultydict):
             for (year,area) in coauthors[auth]:
                 for coauth in coauthors[auth][(year,area)]:
                     if (papersWritten[coauth] >= authorPaperCountThreshold):
-                        o.write(auth)
-                        # o.write(auth.encode('utf-8'))
-                        o.write(',')
-                        o.write(coauth)
-                        # o.write(coauth.encode('utf-8'))
-                        o.write(',')
-                        o.write(str(year))
-                        o.write(',')
-                        o.write(area)
-                        o.write('\n')
+                        if(area!='na'):
+                            o.write(auth)
+                            # o.write(auth.encode('utf-8'))
+                            o.write(',')
+                            o.write(author[auth])
+                            o.write(',')
+                            o.write(affiliation[author[auth]])
+                            o.write(',')
+                            o.write(coauth)
+                            # o.write(coauth.encode('utf-8'))
+                            o.write(',')
+                            o.write(author[coauth])
+                            o.write(',')
+                            o.write(affiliation[author[coauth]])
+                            o.write(',')
+                            o.write(str(year))
+                            o.write(',')
+                            o.write(area)
+                            o.write('\n')
     o.close()
     
     return 0
