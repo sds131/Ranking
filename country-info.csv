@@ -24,6 +24,7 @@ Anhui University,asia,cn
 Argonne National Laboratory,northamerica,us
 Ariel University,asia,il
 Athens University of Applied Sciences,europe,gr
+Auckland University of Technology,australasia,nz
 Australian National University,australasia,au
 Autonomous University of Barcelona,europe,es
 Autonomous University of Madrid,europe,es
@@ -41,6 +42,8 @@ Bauhaus University Weimar,europe,de
 Beihang University,asia,cn
 Beijing Institute of Technology,asia,cn
 Beijing Jiaotong University,asia,cn
+Beijing Language and Culture University,asia,cn
+Beijing Normal University,asia,cn
 Beijing University of Chemical Technology,asia,cn
 Beijing University of Civil Engineering and Architecture,asia,cn
 Beijing University of Posts and Telecommunications,asia,cn
@@ -209,6 +212,7 @@ Hangzhou Dianzi University,asia,cn
 Hangzhou Normal University,asia,cn
 Hanoi University of Science and Technology,asia,vn
 Hanyang University,asia,kr
+Harbin Engineering University,asia,cn
 Harbin Institute of Technology,asia,cn
 Hasso Plattner Institute,europe,de
 Hawassa University,africa,et
@@ -376,6 +380,7 @@ Loughborough University,europe,uk
 Louisiana State University,northamerica,us
 Louisiana Tech University,northamerica,us
 Lovely Professional University,europe,at
+Loyola University Chicago,northamerica,us
 Ludong University,asia,cn
 Ludwigs Maximilians University Munich,europe,de
 Lund University,europe,se
@@ -906,6 +911,7 @@ University of Sydney,australasia,au
 University of Szeged,europe,hu
 University of São Paulo,southamerica,br
 University of Tartu,europe,ee
+University of Tasmania,australasia,au
 University of Technology Sydney,australasia,au
 University of Tehran,asia,ir
 University of Texas Medical Branch,northamerica,us
@@ -984,7 +990,7 @@ Xi'an University of Technology,asia,cn
 Xiamen University,asia,cn
 Xidian University,asia,cn
 Xinjiang University,asia,cn
-Yale Institute for Network Science and Université Laval,northamerica,us
+Yale Institute for Network Science,northamerica,us
 Yanshan University,asia,cn
 Yantai University,asia,cn
 Yarmouk University,asia,jo

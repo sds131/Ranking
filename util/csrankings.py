@@ -76,7 +76,8 @@ def pagecount(pageStr: str) -> int:
 areadict : Dict[Area, List[Conference]] = {
     Area("tcss"):[Conference("TCSS"),Conference("IEEE Transactions on Computational Social Systems"),Conference("IEEE TCSS"),Conference("IEEE Trans. Comput. Soc. Syst.")],
     Area("tsc"):[Conference("TSC"),Conference("tsoco"),Conference("ACM Transactions on Social Computing"),Conference("ACM Trans. Soc. Comput.")],
-    Area("socnet"):[Conference("Social Networks"),Conference("SocNets"),Conference("Soc. Networks")],
+    Area("socnet"):[Conference("SocNets"),Conference("Social Networks"),Conference("Soc. Networks")],
+    Area("socomp"):[Conference("SoComp"),Conference("Journal of Social Computing"),Conference("J. Soc. Comput.")],
 }
 
 TCSS_journal = {
@@ -121,6 +122,11 @@ Soc_journal = {
     2001: {23},
     2000: {22},
     1999: {21}
+}
+
+Socomp_journal = {
+    2021: {2},
+    2020: {1}
 }
 
 
@@ -178,6 +184,15 @@ def countPaper(
         Conf = False
         if year in Soc_journal:
             vols=str(Soc_journal[year])
+        if volume in vols:
+            Conf = True
+        if not Conf:
+            return False
+
+    if confname =="J. Soc. Comput.":
+        Conf = False
+        if year in Socomp_journal:
+            vols=str(Socomp_journal[year])
         if volume in vols:
             Conf = True
         if not Conf:

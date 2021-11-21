@@ -15,7 +15,7 @@ def csv2dict_str_str(fname):
     """Takes a CSV file and returns a dictionary of pairs."""
     with open(fname, mode='r') as infile:
         rdr = csv.reader(infile)
-        d = {unicode(rows[0].strip(), 'utf-8'): unicode(rows[1].strip(), 'utf-8') for rows in rdr}
+        d = {str(rows[0].strip()): str(rows[1].strip()) for rows in rdr}
     return d
 
 # Merge all 'csrankings-*.csv' into 'csrankings.csv'.

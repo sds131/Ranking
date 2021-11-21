@@ -8,7 +8,7 @@ import re
 import sys
 import operator
 from typing import cast, Any, Dict, List, Tuple, TypedDict, Union
-from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal
+from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal, Socomp_journal
 from collections import defaultdict
 
 parser = argparse.ArgumentParser(
@@ -206,6 +206,12 @@ def handle_article(_ : Any, article : ArticleType) -> bool: # type: ignore
                 if volume in vols:
                     confname = Conference('SocNets')
                     areaname = Area('socnet')
+        elif confname == 'J. Soc. Comput.': 
+            if year in Socomp_journal:
+                vols = str(Socomp_journal[year])
+                if volume in vols:
+                    confname = Conference('SoComp')
+                    areaname = Area('socomp')
         elif areaname == Area('pacmpl'):
             confname = Conference(article['number'])
             if confname in confdict:

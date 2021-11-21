@@ -129,7 +129,7 @@ def parseDBLP(facultydict):
         author[k]=v
 
     affiliation={}
-    f2=open('country-info 2.csv','r')
+    f2=open('country-info2.csv','r')
     csv_reader=csv.reader(f2)
     for row in csv_reader:
         k=str(row[0])
