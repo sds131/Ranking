@@ -70,7 +70,7 @@ Alex 'Sandy' Pentland,Massachusetts Institute of Technology,tcss,1.0,0.2,2019
 Alex Cassidy,Washington University in St. Louis,tcss,1.0,0.33333,2018
 Alex D. Stivala,University of Melbourne,socnet,1.0,0.2,2016
 Alex Doboli,Stony Brook University,tcss,1.0,0.33333,2021
-Alex Pentland,Massachusetts Institute of Technology,socomp,1.0,1.0,2020
+Alex Pentland,Massachusetts Institute of Technology,jsc,1.0,1.0,2020
 Alex Pentland,Massachusetts Institute of Technology,tcss,2.0,0.41667,2014
 Alex Yarovoy,University of Haifa,tsc,2.0,0.45,2020
 Alexander G. Nikolaev,State University of New York at Buffalo,socnet,1.0,0.33333,2015
@@ -176,7 +176,7 @@ Annie Waldherr,University of Münster,socnet,1.0,0.125,2018
 Annie Waldherr,University of Münster,socnet,1.0,0.33333,2019
 Anshul Sawant,Google,tcss,1.0,0.14286,2020
 Anthea Bill,University of Newcastle,socnet,1.0,0.14286,2012
-Anthony D'Arienzo,University of Illinois at Urbana-Champaign,socomp,1.0,0.2,2021
+Anthony D'Arienzo,University of Illinois at Urbana-Champaign,jsc,1.0,0.2,2021
 Anton Grau Larsen,Copenhagen Business School,socnet,1.0,0.5,2017
 Antonia Russo,Mediterranea University of Reggio Calabria,tcss,1.0,0.5,2021
 Antonio D. Sirianni,Dartmouth College,socnet,1.0,0.25,2021
@@ -435,7 +435,7 @@ Charles Kadushin,Brandeis University,socnet,1.0,1.0,2002
 Charles Kadushin,Brandeis University,socnet,1.0,1.0,2004
 Charles Kadushin,Brandeis University,socnet,1.0,1.0,2005
 Charles M. Macal,Argonne National Laboratory,tcss,1.0,0.2,2018
-Charlie Catlett,Argonne National Laboratory,socomp,1.0,0.14286,2020
+Charlie Catlett,Argonne National Laboratory,jsc,1.0,0.14286,2020
 Charlotte Struyve,KU Leuven,socnet,1.0,0.2,2017
 Chau Yuen,Singapore University of Technology and Design,tcss,1.0,0.16667,2018
 Chau Yuen,Singapore University of Technology and Design,tcss,1.0,0.11111,2019
@@ -451,7 +451,7 @@ Cheng Wang 0001,Tongji University,tcss,1.0,0.25,2019
 Cheng Wang 0001,Tongji University,tcss,2.0,0.53333,2021
 Cheng Wang 0010,University of Notre Dame,socnet,1.0,0.2,2015
 Cheng Wang 0010,University of Notre Dame,socnet,1.0,0.2,2016
-Cheng Yang 0002,Beijing University of Posts and Telecommunications,socomp,1.0,0.16667,2021
+Cheng Yang 0002,Beijing University of Posts and Telecommunications,jsc,1.0,0.16667,2021
 Cheng-Shang Chang,National Tsing Hua University,tcss,1.0,0.33333,2016
 Cheng-Shang Chang,National Tsing Hua University,tcss,1.0,0.25,2018
 Cheng-Shang Chang,National Tsing Hua University,tcss,1.0,0.25,2019
@@ -462,7 +462,7 @@ Chengjue Yuan,Shanghai Jiao Tong University,tcss,1.0,0.2,2015
 Chengwei Liu,University of Warwick,socnet,1.0,0.5,2016
 Chengwen Luo 0001,Shenzhen University,tcss,1.0,0.14286,2018
 Chenhan Zhang,University of Technology Sydney,tcss,1.0,0.2,2021
-Chenting Jiang,University of Tasmania,socomp,1.0,0.2,2021
+Chenting Jiang,University of Tasmania,jsc,1.0,0.2,2021
 Chenwang Zheng,Beijing Jiaotong University,tcss,1.0,0.16667,2021
 Cherie Noteboom,Dakota State University,tsc,1.0,0.5,2020
 Chetan Harichandra Mendhe,Lakehead University,tcss,1.0,0.25,2021
@@ -867,11 +867,9 @@ Fanzhang Li,Soochow University,tcss,1.0,0.25,2019
 Farshad Salimi Naneh Karan,University of Tennessee,tcss,1.0,0.5,2016
 Fatima Alba Rendon-Huerta,University of Guanajuato,tsc,1.0,0.14286,2019
 Fatima K. Abu Salem,American University of Beirut,tcss,1.0,0.2,2019
-Fei Gao,Beijing Normal University,socomp,1.0,0.25,2021
 Fei Hao,Shaanxi Normal University,tcss,1.0,0.16667,2019
 Fei Hao,Shaanxi Normal University,tcss,1.0,0.16667,2020
 Fei Tao,Beihang University,tcss,1.0,0.16667,2019
-Fei Yan,Tsinghua University,socomp,1.0,0.2,2021
 Fei-Yue Wang 0001,Chinese Academy of Sciences,tcss,3.0,2.3333,2017
 Fei-Yue Wang 0001,Chinese Academy of Sciences,tcss,15.0,3.3004,2018
 Fei-Yue Wang 0001,Chinese Academy of Sciences,tcss,11.0,2.4667,2019
@@ -1057,7 +1055,7 @@ Guangmo Tong,University of Delaware,tcss,2.0,0.45,2021
 Guangquan Xu,Tianjin University,tcss,1.0,0.125,2019
 Guangquan Xu,Tianjin University,tcss,1.0,0.16667,2020
 Guangyao Pang,Shaanxi Normal University,tcss,1.0,0.16667,2019
-Guangye He,Nanjing University,socomp,1.0,0.2,2021
+Guangye He,Nanjing University,jsc,1.0,0.2,2021
 Guangzhi Qu,Oakland University,tcss,1.0,0.16667,2021
 Guanjun Liu,Tongji University,tcss,1.0,0.25,2018
 Guanjun Liu,Tongji University,tcss,1.0,0.25,2019
@@ -1071,7 +1069,7 @@ Guillaume Favre,University Paris-Dauphine,socnet,1.0,0.25,2016
 Guillermo Owen,Naval Postgraduate School,socnet,1.0,0.25,2009
 Guillermo Owen,Naval Postgraduate School,socnet,1.0,0.25,2011
 Gulshan Shrivastava,National Institute of Technology,tcss,1.0,0.16667,2020
-Guodong Ju,London School of Economics and Political Science,socomp,1.0,0.2,2021
+Guodong Ju,London School of Economics and Political Science,jsc,1.0,0.2,2021
 Guodong Long,Monash University,tcss,1.0,0.16667,2021
 Guoqiang Li 0001,Shanghai Jiao Tong University,tcss,1.0,0.2,2018
 Guoshuai Wei,Chongqing University,tcss,1.0,0.33333,2021
@@ -1105,7 +1103,7 @@ Han Liu 0002,Cardiff University,tcss,1.0,0.25,2019
 Han Qiu 0001,Telecom ParisTech,tcss,1.0,0.25,2020
 Hanchun Xiao,Chongqing University,tcss,1.0,0.16667,2019
 Hande Hong,National University of Singapore,tcss,1.0,0.14286,2018
-Hanjia Lyu,University of Rochester,socomp,1.0,0.33333,2021
+Hanjia Lyu,University of Rochester,jsc,1.0,0.33333,2021
 Hannah Johnson,Boise State University,tcss,1.0,0.25,2021
 Hannah Schmid-Petri,University of Passau,socnet,1.0,0.125,2018
 Hanno Kruse,University of Mannheim,socnet,1.0,0.25,2016
@@ -1167,7 +1165,7 @@ Hoda Khalil,Carleton University,tcss,1.0,0.5,2020
 Holly B. Shakya,University of California - San Diego,socnet,1.0,0.33333,2017
 Homa Hosseinmardi,University of Southern California,tcss,1.0,0.25,2018
 Hong Mo,Changsha University of Science and Technology,tcss,1.0,0.16667,2019
-Hong Xiong,Beijing Normal University,socomp,1.0,0.5,2021
+Hong Xiong,Beijing Normal University,jsc,1.0,0.5,2021
 Hong-Ning Dai,Macau University of Science and Technology,tcss,2.0,0.45833,2019
 Hongbin Huang,National University of Defense Technology,tcss,1.0,0.33333,2018
 Honghao Gao,Shanghai University,tcss,1.0,0.25,2018
@@ -1185,12 +1183,11 @@ Hongzhong Deng,National University of Defense Technology,socnet,1.0,0.2,2016
 Horacio Saggion,Universitat Pompeu Fabra,tsc,1.0,0.25,2020
 Hossein Akbari,Ferdowsi University of Mashhad,socnet,1.0,1.0,2021
 Hossein Rastgoftar,Villanova University,tcss,1.0,0.5,2021
-Howard C. Nusbaum,University of Chicago,socomp,1.0,0.14286,2020
+Howard C. Nusbaum,University of Chicago,jsc,1.0,0.14286,2020
 Hsien-Chu Wu,National Chin-Yi University of Technology,tcss,1.0,0.5,2020
 Hsiu Man Chen,Academia Sinica,socnet,1.0,0.33333,2013
 Hsuan-Wei Lee,University of Nebraska,socnet,1.0,0.16667,2018
 Hu Teng,Tongji University,tcss,1.0,0.2,2021
-Hua Sun,Fudan University,socomp,1.0,0.14286,2021
 Huaji Wang,Cranfield University,tcss,1.0,0.125,2018
 Huan Liu 0001,Arizona State University,tcss,1.0,0.33333,2019
 Huan Liu 0001,Arizona State University,tcss,1.0,0.055556,2021
@@ -1210,7 +1207,6 @@ Huicai Deng,Huazhong University of Science and Technology,tcss,1.0,0.14286,2020
 Huijie Zhang,Dalian University of Technology,tcss,1.0,0.2,2019
 Huiling Jia,Zhejiang Sci-Tech University,tcss,1.0,0.2,2019
 Huiling Zhang,University of Florida,tcss,1.0,0.2,2018
-Huimin Chen,Tsinghua University,socomp,1.0,0.16667,2021
 Hunter Rogers,Clemson University,tsc,1.0,0.11111,2021
 Huso Yi,National Development and Research Institute,socnet,1.0,0.16667,2008
 Hwai-Chung Ho,Academia Sinica,socnet,1.0,0.33333,2013
@@ -1277,7 +1273,6 @@ James A. Rolfsen,Creighton University,socnet,1.0,0.33333,2015
 James D. Lee,George Mason University,tsc,1.0,0.2,2021
 James D. Montgomery,University of Wisconsin - Madison,socnet,1.0,1.0,2007
 James D. Wilson,University of San Francisco,socnet,1.0,0.2,2017
-James Evans,Santa Fe Institute,socomp,1.0,1.0,2020
 James F. Morris,Future Operations Investigation Laboratory Air Force Institute of Technology Wright-Patterson Air Force Base,tcss,1.0,0.2,2014
 James H. Fowler,University of California - San Diego,socnet,1.0,1.0,2006
 James H. Fowler,University of California - San Diego,socnet,1.0,0.5,2008
@@ -1307,12 +1302,12 @@ Janet M. Box-Steffensmeier,Ohio State University,socnet,1.0,0.25,2019
 Jani Holopainen,University of Helsinki,tsc,1.0,0.2,2021
 Janice Yap,Singapore Management University,socnet,1.0,0.5,2015
 Janice Yap,Singapore Management University,socnet,1.0,0.5,2017
-Jar-Der Luo,Tsinghua University,socomp,1.0,0.16667,2020
+Jar-Der Luo,Tsinghua University,jsc,1.0,0.16667,2020
 Jar-der Luo,Tsinghua University,socnet,1.0,0.33333,2019
 Jason Baumgardner,Emory University,socnet,1.0,0.16667,2017
 Jason Bello,London School of Economics and Political Science,socnet,1.0,0.5,2014
 Jason Castiglione,University of Hawaii at Manoa,tcss,1.0,0.5,2020
-Jason J. Jones,Stony Brook University,socomp,1.0,0.5,2021
+Jason J. Jones,Stony Brook University,jsc,1.0,0.5,2021
 Jason Kaufman,Harvard University,socnet,1.0,0.2,2008
 Jason M. Morawski,University of Alberta,tcss,1.0,0.25,2016
 Jason M. Smith,Utah State University,socnet,1.0,0.16667,2014
@@ -1382,12 +1377,11 @@ Jialin Hua,Beijing Jiaotong University,socnet,1.0,0.33333,2020
 Jian An,Xi'an Jiaotong University,tcss,1.0,0.125,2020
 Jian Li 0032,Tongji University,tcss,1.0,0.25,2019
 Jian Xu 0004,Northeastern University,tcss,1.0,0.16667,2020
-Jianbin Jin,Tsinghua University,socomp,1.0,0.16667,2021
+Jianbin Jin,Tsinghua University,jsc,1.0,0.16667,2021
 Jianfeng Lu 0002,Wuhan University,tcss,1.0,0.16667,2021
 Jianfeng Ma 0001,Xidian University,tcss,1.0,0.2,2021
-Jiang Zhang,Beijing Normal University,socomp,1.0,0.25,2021
 Jianhua Li 0001,Shanghai Jiao Tong University,tcss,1.0,0.125,2019
-Jiankun Liu,Harbin Engineering University,socomp,1.0,0.2,2021
+Jiankun Liu,Harbin Engineering University,jsc,1.0,0.2,2021
 Jianlei Lang,Beijing University of Technology,tcss,1.0,0.16667,2021
 Jianlong Zhou,University of Technology Sydney,tcss,1.0,0.16667,2021
 Jianmin Ma,Hebei Normal University,tcss,2.0,0.34286,2019
@@ -1404,12 +1398,12 @@ Jianxiong Guo,University of Texas at Dallas,tcss,1.0,0.5,2020
 Jianxiong Guo,University of Texas at Dallas,tcss,1.0,0.5,2021
 Jiaying Gong,Virginia Polytechnic Institute and State University,tcss,1.0,0.25,2020
 Jiaying Liu 0006,Dalian University of Technology,tcss,1.0,0.2,2019
-Jiayun Zhang,Fudan University,socomp,1.0,0.14286,2021
+Jiayun Zhang,Fudan University,jsc,1.0,0.14286,2021
 Jichang Zhao,Beihang University,socnet,1.0,0.33333,2018
 Jie Zhang 0002,Nanyang Technological University,tcss,1.0,0.25,2017
 Jie Zhang 0002,Nanyang Technological University,tcss,2.0,0.75,2018
 Jie Zhang 0053,Nanjing University,tcss,1.0,0.16667,2019
-Jiebo Luo,University of Rochester,socomp,1.0,0.33333,2021
+Jiebo Luo,University of Rochester,jsc,1.0,0.33333,2021
 Jiehan Zhou,University of Oulu,tcss,1.0,0.16667,2021
 Jiejun Hu,University of Essex,tcss,1.0,0.25,2020
 Jieting Cheng,Shandong University,socnet,1.0,0.2,2020
@@ -1682,7 +1676,7 @@ Kimmo Kaski,Aalto University,socnet,1.0,0.16667,2009
 Kimmo Kaski,Aalto University,socnet,1.0,0.33333,2016
 King-To Yeung,The State University of New Jersey,socnet,1.0,0.5,2006
 Kingshuk De,National Institute of Technology,tcss,1.0,0.125,2020
-Kiran Garimella,Massachusetts Institute of Technology,socomp,1.0,0.33333,2020
+Kiran Garimella,Massachusetts Institute of Technology,jsc,1.0,0.33333,2020
 Kiran Garimella,Massachusetts Institute of Technology,tsc,1.0,0.25,2018
 Klaus Hamberger,CNRS,socnet,1.0,1.0,2011
 Klaus Hamberger,CNRS,socnet,1.0,0.25,2013
@@ -1712,7 +1706,7 @@ Kuishuang Feng,University of Maryland - College Park,socnet,2.0,1.0,2016
 Kun He 0001,Huazhong University of Science and Technology,tcss,1.0,0.33333,2020
 Kun Yang 0001,University of Essex,tcss,1.0,0.25,2020
 Kun Zhu 0001,Nanjing University,tcss,1.0,0.25,2021
-Kunhao Yang,University of Tokyo,socomp,1.0,0.16667,2020
+Kunhao Yang,University of Tokyo,jsc,1.0,0.16667,2020
 Kurt Hornik,Institute for Statistics and Mathematics,socnet,2.0,0.5,2014
 Kurt Luther,Virginia Tech,tsc,1.0,0.25,2020
 Kwan-Liu Ma,University of California - Davis,socnet,1.0,0.2,2014
@@ -1830,7 +1824,7 @@ Lotte Vermeij,The Netherlands Institute for Social Research,socnet,1.0,0.33333,2
 Louise Ryan,University of Sheffield,socnet,1.0,0.5,2018
 Love Bohman,Stockholm University,socnet,1.0,1.0,2012
 Lu Fan,The Hong Kong Polytechnic University,tcss,1.0,0.14286,2019
-Lu Hong,Loyola University Chicago,socomp,1.0,0.33333,2021
+Lu Hong,Loyola University Chicago,jsc,1.0,0.33333,2021
 Lu Liu 0001,University of Leicester,tcss,1.0,0.14286,2019
 Lu Liu 0001,University of Leicester,tcss,1.0,0.16667,2020
 Lu Liu 0001,University of Leicester,tcss,1.0,0.2,2021
@@ -1870,11 +1864,10 @@ Manuel Fischer,University of Bern,socnet,1.0,0.5,2015
 Manuel Fischer,University of Bern,socnet,1.0,0.25,2019
 Maoguo Gong,Xidian University,socnet,1.0,0.16667,2016
 Maoguo Gong,Xidian University,tcss,1.0,0.14286,2020
-Maosong Sun,Tsinghua University,socomp,1.0,0.16667,2021
 Maozhen Li,Tongji University,tcss,1.0,0.16667,2020
 Marakkalage Sumudu Hasala,Singapore University of Technology and Design,tcss,1.0,0.11111,2019
 Marc A. C. Sarazin,University of Oxford,socnet,1.0,1.0,2021
-Marc G. Berman,University of Chicago,socomp,1.0,0.14286,2020
+Marc G. Berman,University of Chicago,jsc,1.0,0.14286,2020
 Marc Punkay,University of Chicago,socnet,1.0,0.16667,2017
 Marcel A. L. M. van Assen,Tilburg University,socnet,1.0,0.5,2007
 Marcel A. L. M. van Assen,Tilburg University,socnet,1.0,0.5,2008
@@ -2076,7 +2069,7 @@ Michael Caldara,University of California - Irvine,socnet,1.0,0.5,2013
 Michael D. Siciliano,University of Illinois at Chicago,socnet,1.0,0.33333,2012
 Michael D. Siciliano,University of Illinois at Chicago,socnet,1.0,0.33333,2017
 Michael D. Siciliano,University of Illinois at Chicago,socnet,1.0,0.33333,2018
-Michael E. Papka,Argonne National Laboratory,socomp,1.0,0.14286,2020
+Michael E. Papka,Argonne National Laboratory,jsc,1.0,0.14286,2020
 Michael Genkin,Singapore Management University,socnet,1.0,0.5,2017
 Michael H. Smith,University of California - Berkeley,tcss,1.0,0.2,2018
 Michael Howard,Texas A&M University,socnet,1.0,0.33333,2018
@@ -2145,7 +2138,6 @@ Min Zhou 0003,Beijing Jiaotong University,tcss,1.0,0.2,2020
 Min-Woong Sohn,University of Chicago,socnet,1.0,1.0,2001
 Mineichi Kudo,Hokkaido University,socnet,1.0,0.25,2016
 Ming Cao 0005,The University of Texas Health Science Center at Houston,socnet,1.0,0.2,2018
-Ming Gong,Columbia University,socomp,1.0,0.25,2021
 Ming Xu 0008,Tsinghua University,tcss,1.0,0.2,2018
 Ming Xu 0008,Tsinghua University,tcss,2.0,0.36667,2019
 Mingchu Li,Dalian University of Technology,tcss,1.0,0.16667,2021
@@ -2264,8 +2256,8 @@ Nicholas Weller,University of Southern California,socnet,1.0,0.33333,2014
 Nicholaus J. Gati,Huazhong University of Science and Technology,tcss,1.0,0.2,2021
 Nicholson T. Collier,Argonne National Laboratory,tcss,1.0,0.2,2018
 Nick Crossley,University of Manchester,socnet,1.0,0.25,2012
-Nick Rogers,Stony Brook University,socomp,1.0,0.5,2021
-Nicola J. Ferrier,Argonne National Laboratory,socomp,1.0,0.14286,2020
+Nick Rogers,Stony Brook University,jsc,1.0,0.5,2021
+Nicola J. Ferrier,Argonne National Laboratory,jsc,1.0,0.14286,2020
 Nicola Mirc,CNRS,socnet,1.0,0.5,2020
 Nicolas Tsapatsoulis,Cyprus University of Technology,tcss,1.0,0.25,2018
 Nicolas Tsapatsoulis,Cyprus University of Technology,tcss,1.0,0.5,2019
@@ -2336,7 +2328,7 @@ Osei Appiah,Ohio State University,socnet,1.0,0.33333,2018
 Osmo Mattila,University of Eastern Finland,tsc,1.0,0.2,2021
 Ove Frank,Stockholm University,socnet,1.0,1.0,2001
 Ove Frank,Stockholm University,socnet,1.0,1.0,2002
-P. J. Lamberson,University of California - Los Angeles,socomp,1.0,0.33333,2021
+P. J. Lamberson,University of California - Los Angeles,jsc,1.0,0.33333,2021
 P. M. Krafft,University of Oxford,tsc,1.0,0.33333,2020
 P. Robert Duimering,University of Waterloo,socnet,1.0,0.33333,2008
 Paige Phillips,University of Guelph,tcss,1.0,0.2,2021
@@ -2348,7 +2340,7 @@ Pamela Emanuelson,Dakota State University,socnet,1.0,0.5,2009
 Pamela Emanuelson,Dakota State University,socnet,1.0,0.33333,2012
 Pamela J. Wisniewski,University of Central Florida,tsc,1.0,0.25,2020
 Pamela J. Wisniewski,University of Central Florida,tsc,1.0,0.11111,2021
-Pan Hui 0001,University of Helsinki,socomp,1.0,0.14286,2021
+Pan Hui 0001,University of Helsinki,jsc,1.0,0.14286,2021
 Pan Hui 0001,University of Helsinki,tcss,1.0,0.2,2020
 Pan Li 0001,Case Western Reserve University,tcss,1.0,0.16667,2020
 Paola Tubaro,University of Greenwich,socnet,1.0,0.25,2012
@@ -2437,7 +2429,7 @@ Peter Borm,Tilburg University,socnet,1.0,0.2,2015
 Peter D. Hoff,Duke University,socnet,1.0,0.25,2009
 Peter D. Hoff,Duke University,socnet,1.0,0.5,2019
 Peter Elliott,Swinburne University of Technology,socnet,1.0,0.33333,2001
-Peter H. Beckman,Argonne National Laboratory,socomp,1.0,0.14286,2020
+Peter H. Beckman,Argonne National Laboratory,jsc,1.0,0.14286,2020
 Peter Kuppens,University of Leuven,socnet,1.0,0.16667,2012
 Peter McMahan,University of Chicago,socnet,1.0,0.33333,2015
 Peter Miltner,FU Berlin,socnet,1.0,0.125,2018
@@ -2465,7 +2457,7 @@ Philip A. Sinclair,Manchester Metropolitan University,socnet,1.0,1.0,2007
 Philip A. Sinclair,Manchester Metropolitan University,socnet,1.0,0.25,2012
 Philip Andrew Sinclair,Manchester Metropolitan University,socnet,1.0,1.0,2009
 Philip Branch,Swinburne University of Technology,tsc,1.0,0.25,2020
-Philip D. Waggoner,Columbia University,socomp,2.0,1.25,2021
+Philip D. Waggoner,Columbia University,jsc,2.0,1.25,2021
 Philip Mohr,CSIRO,socnet,1.0,0.25,2010
 Philip S. Yu,University of Illinois at Chicago,tcss,1.0,0.2,2021
 Philip S. Yu,University of Illinois at Chicago,tsc,1.0,0.16667,2018
@@ -2551,7 +2543,7 @@ Qiuzhen Lin,Shenzhen University,tcss,1.0,0.14286,2020
 Qiwen Zheng,University of Maryland - College Park,socnet,1.0,0.5,2017
 Qiwen Zheng,University of Maryland - College Park,socnet,1.0,0.5,2018
 Qizhi Fang,Ocean University of China,tcss,1.0,0.2,2019
-Quan Bai,University of Tasmania,socomp,1.0,0.2,2021
+Quan Bai,University of Tasmania,jsc,1.0,0.2,2021
 Quanbo Zha,Sichuan University,tcss,1.0,0.2,2019
 Quanwang Wu,Chongqing University,tcss,1.0,0.33333,2021
 Quanyan Zhu,York University,tcss,1.0,0.25,2017
@@ -2579,7 +2571,7 @@ Rahul Potharaju,Microsoft,tcss,1.0,0.33333,2017
 Raihan Razib,State University of New York at Buffalo,socnet,1.0,0.33333,2015
 Raine Hoover,Stanford University,socnet,1.0,0.33333,2017
 Rajesh Basak,IIT Kharagpur,tcss,1.0,0.25,2019
-Rajesh Sankaran,Argonne National Laboratory,socomp,1.0,0.14286,2020
+Rajesh Sankaran,Argonne National Laboratory,jsc,1.0,0.14286,2020
 Rajib Bag,Supreme Knowledge Foundation Group of Institutions,tcss,1.0,0.33333,2020
 Rajiv Ranjan,Newcastle University,tcss,2.0,0.5,2015
 Rajiv Ranjan Suman,National Institute of Technology,tcss,1.0,0.25,2021
@@ -2650,8 +2642,8 @@ Robert R. Faulkner,University of Massachusetts,socnet,1.0,0.5,2004
 Robert W. Faris,University of California - Davis,socnet,1.0,0.2,2007
 Robert W. Faris,University of California - Davis,socnet,2.0,0.83333,2012
 Robert W. Krause,Linköping University,socnet,1.0,0.25,2020
-Robert West 0001,EPFL,socomp,1.0,0.33333,2020
-Robert Y. Shapiro,Columbia University,socomp,1.0,0.25,2021
+Robert West 0001,EPFL,jsc,1.0,0.33333,2020
+Robert Y. Shapiro,Columbia University,jsc,1.0,0.25,2021
 Roberto Corradetti,University of Torino,socnet,1.0,0.25,2007
 Roberto Interdonato,University of Calabria,tcss,1.0,0.33333,2018
 Robin Cohen,University of Waterloo,tcss,1.0,0.25,2018
@@ -2707,7 +2699,7 @@ Ruidong Yan,Renmin University of China,tcss,1.0,0.2,2017
 Ruidong Yan,Renmin University of China,tcss,1.0,0.14286,2019
 Ruihan Wu,Cornell University,tcss,1.0,0.33333,2020
 Ruijin Wang,UESTC,tcss,1.0,0.16667,2020
-Ruiqi Li,Beijing University of Chemical Technology,socomp,1.0,0.25,2021
+Ruiqi Li,Beijing University of Chemical Technology,jsc,1.0,0.25,2021
 Ruiqi Wang,University of Delaware,tcss,1.0,0.25,2021
 Ruixuan Li,Huazhong University of Science and Technology,tcss,1.0,0.14286,2020
 Ruiyun Yu,Northeastern University,tcss,1.0,0.25,2019
@@ -2758,7 +2750,7 @@ Sami Abu-El-Haija,University of Southern California,tcss,1.0,0.2,2021
 Samira Malek Mohamadi Golsefid,Amirkabir University of Technology (Polytechnic of Tehran),socnet,1.0,0.33333,2015
 Samit Bhattacharya,IIT Guwahati,tcss,1.0,0.5,2019
 Samrachana Adhikari,York University,socnet,1.0,0.33333,2020
-Samuel Frederick,Columbia University,socomp,1.0,0.25,2021
+Samuel Frederick,Columbia University,jsc,1.0,0.25,2021
 Samuel Friedman,National Development and Research Institute,socnet,1.0,0.16667,2008
 Samya Muhuri,Bennett University,tcss,1.0,0.33333,2018
 Samya Muhuri,Bennett University,tcss,1.0,0.25,2019
@@ -2807,7 +2799,7 @@ Scott Baum,Griffith University,socnet,1.0,0.14286,2012
 Scott D. Gest,Pennsylvania State University,socnet,1.0,0.2,2011
 Scott D. McClurg,Southern Illinois University,socnet,1.0,0.5,2014
 Scott Dick,University of Alberta,tcss,1.0,0.25,2016
-Scott E. Page,University of Michigan,socomp,1.0,0.33333,2021
+Scott E. Page,University of Michigan,jsc,1.0,0.33333,2021
 Scott L. Feld,Purdue University,socnet,1.0,0.5,2002
 Scott L. Feld,Purdue University,socnet,1.0,0.5,2004
 Scott W. Duxbury,Ohio State University,socnet,1.0,0.5,2018
@@ -2859,7 +2851,7 @@ Shilei Wang,Yanshan University,tcss,1.0,0.5,2020
 Shin-Kap Han,University of Illinois at Urbana-Champaign,socnet,1.0,1.0,2003
 Shiping Wang,Fuzhou University,tcss,1.0,0.25,2019
 Shiping Wang,Fuzhou University,tcss,1.0,0.33333,2021
-Shiqing Wu,University of Tasmania,socomp,1.0,0.2,2021
+Shiqing Wu,University of Tasmania,jsc,1.0,0.2,2021
 Shira Offer,Bar-Ilan University,socnet,1.0,0.5,2020
 Shirui Pan,Monash University,tcss,1.0,0.16667,2021
 Shiyan Hu,Michigan Technological University,tcss,1.0,0.5,2015
@@ -2913,7 +2905,7 @@ Simon Rodan,San José State University,socnet,1.0,1.0,2010
 Simona Bignami-Van Assche,Harvard University,socnet,1.0,1.0,2005
 Simona Doboli,Hofstra University,tcss,1.0,0.33333,2021
 Siwei Liao,Huazhong University of Science and Technology,tcss,1.0,0.16667,2018
-Siyu Sun,Tsinghua University,socomp,1.0,0.25,2020
+Siyu Sun,Tsinghua University,jsc,1.0,0.25,2020
 Siyun Peng,Indiana University,socnet,1.0,0.2,2021
 Skyler J. Cranmer,Ohio State University,socnet,1.0,0.33333,2014
 Skyler J. Cranmer,Ohio State University,socnet,1.0,0.2,2017
@@ -3255,7 +3247,6 @@ Weifeng Lv,Beihang University,tcss,1.0,0.16667,2020
 Weiguo Wang,Dongbei University of Finance & Economics,socnet,1.0,0.25,2013
 Weihong Han,Guangzhou University,tcss,1.0,0.16667,2021
 Weihua An,Indiana University,socnet,3.0,2.0,2015
-Weihua Li,Auckland University of Technology,socomp,1.0,0.2,2021
 Weijia Jia 0001,University of Macau,tcss,1.0,0.25,2020
 Weijin Jiang,Hunan University,tcss,1.0,0.16667,2021
 Weili Wu,University of Texas at Dallas,tcss,1.0,0.25,2016
@@ -3265,9 +3256,9 @@ Weili Wu,University of Texas at Dallas,tcss,4.0,1.1762,2019
 Weili Wu,University of Texas at Dallas,tcss,2.0,0.75,2020
 Weili Wu,University of Texas at Dallas,tcss,2.0,0.75,2021
 Weishan Zhang,China University of Petroleum,tcss,2.0,0.36667,2021
+Weiwei Gu,Beijing Normal University,jsc,1.0,0.16667,2020
+Weiwei Gu,Beijing Normal University,jsc,1.0,0.25,2021
 Weiwei Gu,Beijing Normal University,socnet,1.0,0.33333,2019
-Weiwei Gu,Beijing Normal University,socomp,1.0,0.16667,2020
-Weiwei Gu,Beijing Normal University,socomp,1.0,0.25,2021
 Wen Zhang 0001,Beijing University of Technology,tcss,1.0,0.2,2020
 Wen-Chi Chuang,National Chengchi University,socnet,1.0,0.2,2020
 Wen-Tai Li,Singapore University of Technology and Design,tcss,1.0,0.16667,2018
@@ -3356,8 +3347,8 @@ Xiaolong Xu 0001,Nanjing University,tcss,2.0,0.30952,2019
 Xiaolong Xu 0001,Nanjing University,tcss,1.0,0.16667,2021
 Xiaolong Zheng 0001,Chinese Academy of Sciences,tcss,1.0,0.076923,2021
 Xiaolong Zhu,Florida International University,tcss,1.0,0.2,2019
-Xiaoming Fu 0001,University of Göttingen,socomp,1.0,0.16667,2020
-Xiaoming Fu 0001,University of Göttingen,socomp,1.0,0.2,2021
+Xiaoming Fu 0001,University of Göttingen,jsc,1.0,0.16667,2020
+Xiaoming Fu 0001,University of Göttingen,jsc,1.0,0.2,2021
 Xiaoming Wang 0001,Shaanxi Normal University,tcss,1.0,0.25,2020
 Xiaonan Luo,Guilin University of Electronic Technology,tcss,1.0,0.125,2019
 Xiaonan Wang 0001,Changshu Institute of Technology,tcss,1.0,0.33333,2018
@@ -3374,12 +3365,9 @@ Xiaoyu Sean Lu,New Jersey Institute of Technology,tcss,1.0,0.25,2019
 Xiaoyu Sean Lu,New Jersey Institute of Technology,tcss,1.0,0.2,2020
 Xiaoyun Huang,University of Maryland - College Park,tsc,1.0,0.5,2019
 Xiaozhuang Song,Southern University of Science and Technology,tcss,1.0,0.2,2021
-Xin Gao,Tsinghua University,socomp,1.0,0.16667,2020
-Xin Gao,Tsinghua University,socomp,1.0,0.2,2021
 Xin Liu 0022,China University of Petroleum,tcss,2.0,0.33333,2021
 Xin Lu 0002,Central South University,socnet,1.0,1.0,2013
 Xin Lu 0002,Central South University,socnet,1.0,0.33333,2020
-Xin Wang,Fudan University,socomp,1.0,0.14286,2021
 Xinghuo Yu 0001,Massachusetts Institute of Technology,socnet,1.0,0.2,2014
 Xinglin Zhang,South China University of Technology,tcss,1.0,0.5,2019
 Xingqin Qi,Shandong University,socnet,1.0,0.2,2020
@@ -3390,7 +3378,6 @@ Xingyou Xia,Northeastern University,tcss,1.0,0.25,2019
 Xinhong Wu,Chongqing University,tcss,1.0,0.25,2021
 Xinwei Cao,Shanghai University,tcss,1.0,0.25,2020
 Xinye Cai,Nanjing University,tcss,1.0,0.25,2021
-Xinyi Zhang,Beijing Language and Culture University,socomp,1.0,0.2,2021
 Xishuang Dong,Texas A&M University,tcss,1.0,0.33333,2020
 Xiumei Zhu,Purdue University,socnet,1.0,0.25,2013
 Xiuqin Shang,Chinese Academy of Sciences,tcss,1.0,0.2,2019
@@ -3407,7 +3394,7 @@ Xixi Li,Chongqing University,tcss,1.0,0.2,2018
 Xiyan Sun,Guilin University of Electronic Technology,tcss,1.0,0.125,2019
 Xuan Han,Qingdao Academy of Intelligent Industries,tcss,1.0,0.33333,2019
 Xuanheng Xu,Zhejiang University,tcss,1.0,0.16667,2019
-Xuanming Zhang,Tsinghua University,socomp,1.0,0.16667,2021
+Xuanming Zhang,Tsinghua University,jsc,1.0,0.16667,2021
 Xuanming Zhao,Changsha University of Science and Technology,tcss,1.0,0.16667,2019
 Xue Li 0001,University of Queensland,tcss,1.0,0.16667,2021
 Xuemin Shen,University of Waterloo,tcss,1.0,0.25,2015
@@ -3416,7 +3403,7 @@ Xujuan Zhou,University of Southern Queensland,tcss,1.0,0.14286,2020
 Xukai Zou,Indiana University,tcss,1.0,0.25,2018
 Xun Liang 0001,Renmin University of China,tcss,1.0,0.25,2018
 Xun Liang 0001,Renmin University of China,tcss,2.0,0.5,2020
-Xupin Zhang,University of Rochester,socomp,1.0,0.33333,2021
+Xupin Zhang,University of Rochester,jsc,1.0,0.33333,2021
 Xuyun Zhang,Macquarie University,tcss,2.0,0.30952,2019
 Xuyun Zhang,Macquarie University,tcss,2.0,0.28571,2021
 Y. Narahari,Indian Institute of Science,socnet,1.0,0.5,2011
@@ -3437,7 +3424,7 @@ Yanbing Liu,Chongqing University,tcss,1.0,0.2,2018
 Yancai Xu,Chinese Academy of Sciences,tcss,1.0,0.14286,2021
 Yaneer Bar-Yam,New England Complex Systems Institute,socnet,1.0,0.33333,2011
 Yanfen Wang,Chinese Academy of Sciences,tcss,1.0,0.5,2020
-Yang Chen 0001,Fudan University,socomp,1.0,0.14286,2021
+Yang Chen 0001,Fudan University,jsc,1.0,0.14286,2021
 Yang Chen 0001,Fudan University,tcss,1.0,0.25,2019
 Yang Chen 0001,Fudan University,tcss,1.0,0.2,2020
 Yang Liu 0046,New Jersey Institute of Technology,tcss,1.0,0.5,2016
@@ -3445,7 +3432,7 @@ Yang Liu 0064,Michigan Technological University,tcss,1.0,0.5,2015
 Yang Xiang 0001,Deakin University,tcss,1.0,0.125,2015
 Yang Xiang 0001,Deakin University,tcss,1.0,0.14286,2016
 Yang Xing,Cranfield University,tcss,1.0,0.125,2018
-Yang Xu 0010,Fudan University,socomp,1.0,0.14286,2021
+Yang Xu 0010,Fudan University,jsc,1.0,0.14286,2021
 Yang-chih Fu,Academia Sinica,socnet,1.0,1.0,2005
 Yang-chih Fu,Academia Sinica,socnet,1.0,0.33333,2013
 Yang-chih Fu,Academia Sinica,socnet,2.0,0.58333,2016
@@ -3462,7 +3449,7 @@ Yanli Li,Changshu Institute of Technology,tcss,1.0,0.33333,2018
 Yanli Li,Changshu Institute of Technology,tcss,1.0,0.5,2019
 Yanlong Zhang,Peking University,socnet,1.0,0.33333,2012
 Yanmei Zhang,Central University of Finance and Economics,tcss,1.0,0.25,2019
-Yanqin Ruan,Tsinghua University,socomp,1.0,0.25,2020
+Yanqin Ruan,Tsinghua University,jsc,1.0,0.25,2020
 Yansen Su,Anhui University,tcss,1.0,0.2,2017
 Yantao Jia,Chinese Academy of Sciences,tcss,1.0,0.2,2017
 Yanzi Du,Xiamen University,tcss,1.0,0.25,2020
@@ -3499,9 +3486,8 @@ Yiding Zhang,Beijing University of Posts and Telecommunications,tsc,1.0,0.16667,
 Yidong Li,Beijing Jiaotong University,tcss,1.0,0.33333,2020
 Yifeng Liu,China Academy of Electronics and Information Technology,tcss,1.0,0.25,2021
 Yiftach Nagar,University of Haifa,tsc,1.0,0.25,2020
-Yihan Ma,Fudan University,socomp,1.0,0.14286,2021
+Yihan Ma,Fudan University,jsc,1.0,0.14286,2021
 Yinan Mei,Central University of Finance and Economics,tcss,1.0,0.25,2019
-Ying Fan,Beijing Normal University,socomp,1.0,0.5,2021
 Ying Tang 0001,Dalian Maritime University,tcss,1.0,0.25,2019
 Ying Tang 0001,Dalian Maritime University,tcss,1.0,0.25,2020
 Ying Zhang 0001,University of Technology Sydney,tcss,1.0,0.2,2020
@@ -3554,7 +3540,7 @@ Yu Xiao 0001,Aalto University,tcss,1.0,0.2,2020
 Yu-Dang Wei,Renmin University of China,tcss,1.0,0.25,2020
 Yu-Fang Chiu,National Chiao Tung University,tcss,1.0,0.25,2021
 Yu-Hsien Peng,National Tsing Hua University,tcss,1.0,0.25,2020
-Yu-Sung Su,Tsinghua University,socomp,1.0,0.25,2020
+Yu-Sung Su,Tsinghua University,jsc,1.0,0.25,2020
 Yuan Hsiao,University of Washington,socnet,1.0,0.33333,2019
 Yuan Liu 0002,Northeastern University,tcss,1.0,0.25,2017
 Yuan Yuan 0012,Guilin University of Electronic Technology,tcss,1.0,0.125,2019
@@ -3568,7 +3554,7 @@ Yucheng Dong,Sichuan University,tcss,2.0,0.4,2019
 Yue-Jiao Gong,South China University of Technology,tcss,1.0,0.2,2019
 Yuehu Liu,Xi'an Jiaotong University,tcss,1.0,0.2,2019
 Yuejin Tan,National University of Defense Technology,socnet,1.0,0.2,2016
-Yufan Dong,University of Göttingen,socomp,1.0,0.2,2021
+Yufan Dong,University of Göttingen,jsc,1.0,0.2,2021
 Yufang Wang,Tianjin University,tcss,1.0,0.2,2020
 Yufeng Wang 0001,Nanjing University,tcss,2.0,0.5,2020
 Yufeng Yao,University of the West of England,tcss,1.0,0.33333,2019
@@ -3664,7 +3650,7 @@ Zhiyi Hu,Wuhan University,tcss,1.0,0.2,2018
 Zhiyi Lu,University of Hong Kong,tcss,1.0,0.25,2017
 Zhiyi Lu,University of Hong Kong,tcss,1.0,0.33333,2018
 Zhiyong Feng 0002,Tianjin University,tcss,1.0,0.25,2018
-Zhiyuan Liu 0001,Tsinghua University,socomp,1.0,0.16667,2021
+Zhiyuan Liu 0001,Tsinghua University,jsc,1.0,0.16667,2021
 Zhong Ming 0001,Shenzhen University,tcss,1.0,0.14286,2018
 Zhong Ming 0001,Shenzhen University,tcss,1.0,0.25,2020
 Zhongyuan Jiang,Xidian University,tcss,1.0,0.2,2021

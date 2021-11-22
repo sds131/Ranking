@@ -26,7 +26,7 @@ areaList = [
         { "area" : "tcss", "title" : "Social", "color" : soccolor },
         { "area" : "tsc", "title" : "Social", "color" : soccolor },
         { "area" : "socnet", "title" : "Social", "color" : soccolor }, 
-        { "area" : "socomp", "title" : "Social", "color" : soccolor }
+        { "area" : "jsc", "title" : "Social", "color" : soccolor }
 ]
 
 colorList = []
