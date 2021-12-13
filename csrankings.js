@@ -50,6 +50,7 @@ class CSRankings {
             { area: "tsc", title: "Social" },
             { area: "socnet", title: "Social" },
             { area: "jsc", title: "Social" },
+            { area: "snam", title: "Social" },
         ];
         this.socialAreas = ["social"];
         this.areaNames = [];
@@ -1452,6 +1453,7 @@ CSRankings.parentMap = {
     'tsc': 'social',
     'socnet': 'social',
     'jsc': 'social',
+    'snam': 'social',
 };
 CSRankings.nextTier = {};
 CSRankings.childMap = {};

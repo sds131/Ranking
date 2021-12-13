@@ -201,6 +201,7 @@ class CSRankings {
             'tsc':'social',
             'socnet':'social',
             'jsc':'social',
+            'snam':'social',
         };
     
         public static readonly nextTier: { [key: string]: boolean } =
@@ -227,6 +228,7 @@ class CSRankings {
         {area:"tsc",title:"Social"},
         {area:"socnet",title:"Social"},
         {area:"jsc",title:"Social"},
+        {area:"snam",title:"Social"},
         ];
 
     private readonly socialAreas =["social"];

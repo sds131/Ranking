@@ -8,7 +8,7 @@ import re
 import sys
 import operator
 from typing import cast, Any, Dict, List, Tuple, TypedDict, Union
-from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal, JSC_journal
+from csrankings import Area, Conference, Title, countPaper, pagecount, startpage, confdict, areadict, TCSS_journal, TSC_journal, Soc_journal, JSC_journal, SNAM_journal
 from collections import defaultdict
 
 parser = argparse.ArgumentParser(
@@ -190,8 +190,8 @@ def handle_article(_ : Any, article : ArticleType) -> bool: # type: ignore
         #Special handling for PACMPL
         if confname == 'IEEE Trans. Comput. Soc. Syst.':
             if year in TCSS_journal:
-                vol = TCSS_journal[year]
-                if volume == str(vol):
+                vols = str(TCSS_journal[year])
+                if volume in vols:
                     confname = Conference('TCSS')
                     areaname = Area('tcss')
         elif confname == 'ACM Trans. Soc. Comput.':
@@ -212,6 +212,12 @@ def handle_article(_ : Any, article : ArticleType) -> bool: # type: ignore
                 if volume in vols:
                     confname = Conference('JSC')
                     areaname = Area('jsc')
+        elif confname == 'Soc. Netw. Anal. Min.': 
+            if year in SNAM_journal:
+                vols = str(SNAM_journal[year])
+                if volume in vols:
+                    confname = Conference('SNAM')
+                    areaname = Area('snam')
         elif areaname == Area('pacmpl'):
             confname = Conference(article['number'])
             if confname in confdict:

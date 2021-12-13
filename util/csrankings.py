@@ -78,6 +78,7 @@ areadict : Dict[Area, List[Conference]] = {
     Area("tsc"):[Conference("TSC"),Conference("tsoco"),Conference("ACM Transactions on Social Computing"),Conference("ACM Trans. Soc. Comput.")],
     Area("socnet"):[Conference("SocNets"),Conference("Social Networks"),Conference("Soc. Networks")],
     Area("jsc"):[Conference("JSC"),Conference("Journal of Social Computing"),Conference("J. Soc. Comput.")],
+    Area("snam"):[Conference("Social Network Analysis and Mining"),Conference("Soc. Netw. Anal. Min.")],
 }
 
 TCSS_journal = {
@@ -129,6 +130,19 @@ JSC_journal = {
     2020: {1}
 }
 
+SNAM_journal = {
+    2021: {11},
+    2020: {10},
+    2019: {9},
+    2018: {8},
+    2017: {7},
+    2016: {6},
+    2015: {5},
+    2014: {4},
+    2013: {3},
+    2012: {2},
+    2011: {1},
+}
 
 # Build a dictionary mapping conferences to areas.
 # e.g., confdict['CVPR'] = 'vision'.
@@ -165,8 +179,8 @@ def countPaper(
     if confname =="IEEE Trans. Comput. Soc. Syst.":
         Conf = False
         if year in TCSS_journal:
-            vol = TCSS_journal[year]
-            if volume == str(vol):
+            vols = str(TCSS_journal[year])
+            if volume in vols:
                 Conf = True
         if not Conf:
             return False
@@ -184,8 +198,8 @@ def countPaper(
         Conf = False
         if year in Soc_journal:
             vols=str(Soc_journal[year])
-        if volume in vols:
-            Conf = True
+            if volume in vols:
+                Conf = True
         if not Conf:
             return False
 
@@ -193,8 +207,17 @@ def countPaper(
         Conf = False
         if year in JSC_journal:
             vols=str(JSC_journal[year])
-        if volume in vols:
-            Conf = True
+            if volume in vols:
+                Conf = True
+        if not Conf:
+            return False
+
+    if confname =="Soc. Netw. Anal. Min.":
+        Conf = False
+        if year in SNAM_journal:
+            vols=str(SNAM_journal[year])
+            if volume in vols:
+                Conf = True
         if not Conf:
             return False
 
